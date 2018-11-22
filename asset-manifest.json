@@ -1,7 +1,7 @@
 {
   "main.css": "/beanns/static/css/main.a32ee8df.chunk.css",
-  "main.js": "/beanns/static/js/main.54610108.chunk.js",
-  "main.js.map": "/beanns/static/js/main.54610108.chunk.js.map",
+  "main.js": "/beanns/static/js/main.de8aac0b.chunk.js",
+  "main.js.map": "/beanns/static/js/main.de8aac0b.chunk.js.map",
   "static/css/1.6b0c6417.chunk.css": "/beanns/static/css/1.6b0c6417.chunk.css",
   "static/js/1.34cee2ff.chunk.js": "/beanns/static/js/1.34cee2ff.chunk.js",
   "static/js/1.34cee2ff.chunk.js.map": "/beanns/static/js/1.34cee2ff.chunk.js.map",
@@ -12,9 +12,9 @@
   "static/media/linkedin.svg": "/beanns/static/media/linkedin.5608be7a.svg",
   "static/media/github.svg": "/beanns/static/media/github.766603df.svg",
   "static/media/twitter.svg": "/beanns/static/media/twitter.eda2e278.svg",
-  "static/css/1.6b0c6417.chunk.css.map": "/beanns/static/css/1.6b0c6417.chunk.css.map",
   "static/css/main.a32ee8df.chunk.css.map": "/beanns/static/css/main.a32ee8df.chunk.css.map",
+  "static/css/1.6b0c6417.chunk.css.map": "/beanns/static/css/1.6b0c6417.chunk.css.map",
   "index.html": "/beanns/index.html",
-  "precache-manifest.a1e809de389f09f7dfd585e0e271d1d5.js": "/beanns/precache-manifest.a1e809de389f09f7dfd585e0e271d1d5.js",
+  "precache-manifest.b960a7accc5a4f1677cc2769167a96b3.js": "/beanns/precache-manifest.b960a7accc5a4f1677cc2769167a96b3.js",
   "service-worker.js": "/beanns/service-worker.js"
 }

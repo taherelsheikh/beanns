@@ -1,7 +1,7 @@
 {
   "main.css": "/beanns/static/css/main.a32ee8df.chunk.css",
-  "main.js": "/beanns/static/js/main.0ffb7367.chunk.js",
-  "main.js.map": "/beanns/static/js/main.0ffb7367.chunk.js.map",
+  "main.js": "/beanns/static/js/main.f4e759a7.chunk.js",
+  "main.js.map": "/beanns/static/js/main.f4e759a7.chunk.js.map",
   "static/css/1.6b0c6417.chunk.css": "/beanns/static/css/1.6b0c6417.chunk.css",
   "static/js/1.34cee2ff.chunk.js": "/beanns/static/js/1.34cee2ff.chunk.js",
   "static/js/1.34cee2ff.chunk.js.map": "/beanns/static/js/1.34cee2ff.chunk.js.map",
@@ -15,6 +15,6 @@
   "static/css/main.a32ee8df.chunk.css.map": "/beanns/static/css/main.a32ee8df.chunk.css.map",
   "static/css/1.6b0c6417.chunk.css.map": "/beanns/static/css/1.6b0c6417.chunk.css.map",
   "index.html": "/beanns/index.html",
-  "precache-manifest.91504a59602425c4728584610538d861.js": "/beanns/precache-manifest.91504a59602425c4728584610538d861.js",
+  "precache-manifest.580a1f1e865a6208441f1989b1e3aa95.js": "/beanns/precache-manifest.580a1f1e865a6208441f1989b1e3aa95.js",
   "service-worker.js": "/beanns/service-worker.js"
 }

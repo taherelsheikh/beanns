@@ -1,7 +1,7 @@
 self.__precacheManifest = [
   {
-    "revision": "af7ae505a9eed503f8b8e6982036873e",
-    "url": "/beanns/static/media/fontawesome-webfont.af7ae505.woff2"
+    "revision": "674f50d287a8c48dc19ba404d20fe713",
+    "url": "/beanns/static/media/fontawesome-webfont.674f50d2.eot"
   },
   {
     "revision": "3fc587f75386dfa1fb65",
@@ -24,8 +24,8 @@ self.__precacheManifest = [
     "url": "/beanns/static/media/icons.9aa4f7b7.svg"
   },
   {
-    "revision": "674f50d287a8c48dc19ba404d20fe713",
-    "url": "/beanns/static/media/fontawesome-webfont.674f50d2.eot"
+    "revision": "af7ae505a9eed503f8b8e6982036873e",
+    "url": "/beanns/static/media/fontawesome-webfont.af7ae505.woff2"
   },
   {
     "revision": "3fc587f75386dfa1fb65",

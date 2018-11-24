@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/beanns/static/media/fontawesome-webfont.674f50d2.eot"
   },
   {
-    "revision": "f4e759a7970b6780edac",
+    "revision": "232cfd531a69248f41db",
     "url": "/beanns/static/css/main.a32ee8df.chunk.css"
   },
   {
@@ -28,8 +28,8 @@ self.__precacheManifest = [
     "url": "/beanns/static/media/fontawesome-webfont.af7ae505.woff2"
   },
   {
-    "revision": "f4e759a7970b6780edac",
-    "url": "/beanns/static/js/main.f4e759a7.chunk.js"
+    "revision": "232cfd531a69248f41db",
+    "url": "/beanns/static/js/main.232cfd53.chunk.js"
   },
   {
     "revision": "b06871f281fee6b241d60582ae9369b9",
@@ -56,7 +56,7 @@ self.__precacheManifest = [
     "url": "/beanns/static/css/1.6b0c6417.chunk.css"
   },
   {
-    "revision": "c784c072355204c5b674078f4b54fc34",
+    "revision": "84ae2aa088b8efcd0288cfa302111d78",
     "url": "/beanns/index.html"
   }
 ];

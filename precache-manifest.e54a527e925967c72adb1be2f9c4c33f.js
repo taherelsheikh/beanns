@@ -1,7 +1,7 @@
 self.__precacheManifest = [
   {
-    "revision": "af7ae505a9eed503f8b8e6982036873e",
-    "url": "/beanns/static/media/fontawesome-webfont.af7ae505.woff2"
+    "revision": "fee66e712a8a08eef5805a46892932ad",
+    "url": "/beanns/static/media/fontawesome-webfont.fee66e71.woff"
   },
   {
     "revision": "0e74683b80c059c3e472",
@@ -32,8 +32,8 @@ self.__precacheManifest = [
     "url": "/beanns/static/js/main.0e74683b.chunk.js"
   },
   {
-    "revision": "fee66e712a8a08eef5805a46892932ad",
-    "url": "/beanns/static/media/fontawesome-webfont.fee66e71.woff"
+    "revision": "af7ae505a9eed503f8b8e6982036873e",
+    "url": "/beanns/static/media/fontawesome-webfont.af7ae505.woff2"
   },
   {
     "revision": "b06871f281fee6b241d60582ae9369b9",
@@ -56,7 +56,7 @@ self.__precacheManifest = [
     "url": "/beanns/static/css/1.9ad3c64c.chunk.css"
   },
   {
-    "revision": "22fa8f7b198c22e39764ca0f7469e7fd",
+    "revision": "b3e6ab17e918bf6920ae8e198a77b696",
     "url": "/beanns/index.html"
   }
 ];

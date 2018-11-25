@@ -83,12 +83,18 @@ border-radius: 8px; */
 
 
 #Flexbox_Div_inputs {
-  margin-top: 10px;
+  margin-top: 59px;
   display: flex;
   justify-content: space-around;
-  position: absolute;
-  width: 100%;
-  top:122px;
+  /* justify-content: center; */
+
+  /* position: absolute; */
+  /* top:122px; */
+  width: 1112px;
+  /* height: 363px; */
+  /* margin: 0 auto; */
+
+
 
 }
 
@@ -102,21 +108,20 @@ border-radius: 8px; */
 }
 
 ::-webkit-input-placeholder {
-  color: rgba(255,255,255,0.60);
+  color: rgba(255,255,255,0.80);
 }
 
 ::-moz-placeholder {
-  color: rgba(255,255,255,0.60);
+  color: rgba(255,255,255,0.80);
+
 }
 
 ::-ms-placeholder {
-  color: rgba(255,255,255,0.60);
+  color: rgba(255,255,255,0.80);
+
 }
 
 ::placeholder {
-  color: rgba(255,255,255,0.60);
-}
+  color: rgba(255,255,255,0.80);
 
-/* *{
- outline: 1px solid red;
-} */
+}

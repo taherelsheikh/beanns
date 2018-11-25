@@ -33,7 +33,7 @@ this.passed_data_from_input = this.passed_data_from_input.bind(this)
   render() {
   const Div_App_main = styled.div`
     height: 1965px;
-    width: auto;;
+    width: 100%;
     overflow: hidden;
     `
 

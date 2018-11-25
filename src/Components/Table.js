@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import styled from "styled-components";
+import {Animated} from "react-animated-css";
+
 
 class Table extends Component {
   constructor() {
@@ -24,8 +26,15 @@ class Table extends Component {
 
   render() {
     const Div_table_box = styled.div`
-      width: 1112px;
-      height: 716px;
+      /* height: 716px; */
+      display: flex;
+    justify-content: center;
+    /* width: 1112px; */
+    height: 716px;
+    width: 1112px;
+    margin: 0 auto;
+
+
     `;
 
     const Div_table_box_small = styled.div`
@@ -36,16 +45,16 @@ class Table extends Component {
     position: relative;
     background-color: #ffffff;
     height: 525px;
-
-
-
-    margin: 0 auto;
+    width: 1112px;
+    /* margin:  auto; */
+    /* margin:  2px; */
+    margin-top: -33px;
+    margin-left: 54px;
+    margin-right: 54px;
     top: -513px;
-    right: -306px;
+    /* right: -306px; */
     overflow: hidden;
     z-index: 200;
-
-
     `
 
 
@@ -152,40 +161,37 @@ class Table extends Component {
 
     return (
       <Div_table_box>
+
       <Div_table_box_small>
         <Hr_table_horizontal_line />
         <Div_table>
         <Div_table_row>
           <P_table_title>EMAIL</P_table_title>
+          <Animated animationIn="fadeIn" animationOut="fadeOut" isVisible={true}>
           <P_table_data_winner>{this.state.emails['emailOne']}</P_table_data_winner>
+          </Animated>
+          <Animated animationIn="fadeIn" animationOut="fadeOut" isVisible={true}>
+
           <P_table_data_winner>{this.state.emails['emailTwo']}</P_table_data_winner>
+          </Animated>
+          <Animated animationIn="fadeIn" animationOut="fadeOut" isVisible={true}>
+
           <P_table_data_winner>{this.state.emails['emailThree']}</P_table_data_winner>
+          </Animated>
+          <Animated animationIn="fadeIn" animationOut="fadeOut" isVisible={true}>
+
           <P_table_data_winner>{this.state.emails['emailFour']}</P_table_data_winner>
+          </Animated>
+          <Animated animationIn="fadeIn" animationOut="fadeOut" isVisible={true}>
+
           <P_table_data_winner>{this.state.emails['emailFive']}</P_table_data_winner>
+          </Animated>
+          <Animated animationIn="fadeIn" animationOut="fadeOut" isVisible={true}>
+
           <P_table_data_winner>{this.state.emails['emailSix']}</P_table_data_winner>
+          </Animated>
+
         </Div_table_row>
-
-        {/*
-          <Div_table_row>
-            <P_table_title>EMAIL</P_table_title>
-            <P_table_data>mark@fb.com</P_table_data>
-            <P_table_data>zuck@fb.com</P_table_data>
-            <P_table_data>markzuck@fb.com</P_table_data>
-            <P_table_data_winner>mzuck@fb.com</P_table_data_winner>
-            <P_table_data>mark.zuck@fb.com</P_table_data>
-            <P_table_data>mark_zuck@fb.com</P_table_data>
-          </Div_table_row>
-          <Div_table_row>
-            <P_table_title>FOUND</P_table_title>
-            <P_table_img_cross src={require('./Assets/Cross.svg')}/>
-            <P_table_img_cross src={require('./Assets/Cross.svg')}/>
-            <P_table_img_cross src={require('./Assets/Cross.svg')}/>
-            <P_table_img_check src={require('./Assets/Check.svg')}/>
-            <P_table_img_cross src={require('./Assets/Cross.svg')}/>
-            <P_table_img_cross src={require('./Assets/Cross.svg')}/>
-          </Div_table_row>
-          */}
-
         </Div_table>
         </Div_table_box_small>
       </Div_table_box>

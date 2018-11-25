@@ -41,11 +41,12 @@ handleSubmitEnter(event) {
     position: relative;
     top: -624px;
     overflow: hidden;
+
     `;
 
   const P_title_beans = styled.p`
   font-family: 'Comfortaa', cursive;
-  font-size: 40px;
+  font-size: 45px;
   font-weight: 700;
   color: #ffffff;
   letter-spacing: 0px;
@@ -55,7 +56,7 @@ handleSubmitEnter(event) {
 
 const P_subtitle_beans = styled.p`
 font-family: "Alegreya Sans", sans-serif;
-font-size: 20px;
+font-size: 25px;
 font-weight: 300;
 color: #ffffff;
 margin: 0;
@@ -152,8 +153,7 @@ const P_button_text = styled.p`
 
     return (
         <Div_inputs_outline>
-         <P_title_beans>Beanns</P_title_beans>
-         {/* <Img_beans src={require('./Assets/hamster.svg')}/>*/}
+         <P_title_beans>beanns</P_title_beans>
         <P_subtitle_beans>predict someone's email in seconds</P_subtitle_beans>
         <InputTesting
         ref="Inputs"

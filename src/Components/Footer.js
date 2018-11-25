@@ -14,6 +14,7 @@ top: -1982px;
 margin: 0 auto;
 z-index: 200;
 overflow: hidden;
+
     `
 
     const P_footer_about = styled.p`
@@ -28,11 +29,12 @@ overflow: hidden;
     const P_footer_titles = styled.p`
     font-family: "Alegreya Sans", sans-serif;
     font-size: 20px;
-    color: rgba(232,134,31,0.90);
+    color: rgba(232,134,31,0.70);
     letter-spacing: 0.68px;
     margin: 0;
     margin-top: 20px;
         `
+
 
     const P_footer_subtitle = styled.p`
     font-family: "Alegreya Sans", sans-serif;

@@ -28,10 +28,6 @@ this.handleDomainName = this.handleDomainName.bind(this)
 this.stringManipulation = this.stringManipulation.bind(this)
 this.removeWhiteSpace = this.removeWhiteSpace.bind(this)
 this.firstNameHover = this.firstNameHover.bind(this)
-// this.checkWhitespace = this.checkWhitespace.bind(this)
-// this.checkEmptyInputs = this.checkEmptyInputs.bind(this)
-// this.checkDomain = this.checkDomain.bind(this)
-// this.checkLength = this.checkLength.bind(this)
 }
 
 handleFirstName(event) {
@@ -55,7 +51,6 @@ this.setState({errorDomainNameMessage: ""})
 }
 
 passData() {
-  // return (this.state.firstName, this.state.secondName, this.state.domainName)
   let data = { first_name: this.state.firstName, second_name: this.state.secondName, domain_name: this.state.domainName }
   return ( data )
 }
@@ -73,22 +68,12 @@ checkFirstName() {
     this.setState({errorFirstNameMessage: "Enter the first name."})
   }
   else {
-    // console.log("GOOD empty inputs firstName")
-    // this.setState({errorFirstNameFound: false}, this.checkSecondName)
-    // this.setState({errorFirstNameMessage: ""})
-    // check space inputs
   if ( /\s/.test(this.state.firstName)==true) {
         console.log("ERROR space firstname")
         this.setState({errorFirstNameFound: true}, this.checkSecondName)
         this.setState({errorFirstNameMessage: "Remove whitespace."})
       }
    else {
-     // console.log("GOOD space firstname")
-     // this.setState({errorFirstNameFound: false}, this.checkSecondName)
-     // this.setState({errorFirstNameMessage: ""})
-     // first name is too long
-     // remove the whitespace
-     // whats the first name?
 
      // check length
      if (this.state.firstName.length > 15) {
@@ -103,7 +88,6 @@ checkFirstName() {
     }
    }
   }
-  // this.checkSecondName()
 }
 
 checkSecondName() {
@@ -853,6 +837,8 @@ color: #ffffff;
 margin-top: 11px;
 margin-left: 4px;
 `
+
+
 
     return (
       <div id="Flexbox_Div_inputs">

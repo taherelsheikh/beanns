@@ -8,8 +8,8 @@ self.__precacheManifest = [
     "url": "/beanns/static/css/main.1cf1f539.chunk.css"
   },
   {
-    "revision": "b06871f281fee6b241d60582ae9369b9",
-    "url": "/beanns/static/media/fontawesome-webfont.b06871f2.ttf"
+    "revision": "912ec66d7572ff821749319396470bde",
+    "url": "/beanns/static/media/fontawesome-webfont.912ec66d.svg"
   },
   {
     "revision": "e3ce4051ed868156b22b",
@@ -48,8 +48,8 @@ self.__precacheManifest = [
     "url": "/beanns/static/media/fontawesome-webfont.fee66e71.woff"
   },
   {
-    "revision": "912ec66d7572ff821749319396470bde",
-    "url": "/beanns/static/media/fontawesome-webfont.912ec66d.svg"
+    "revision": "b06871f281fee6b241d60582ae9369b9",
+    "url": "/beanns/static/media/fontawesome-webfont.b06871f2.ttf"
   },
   {
     "revision": "e3ce4051ed868156b22b",

@@ -4,12 +4,12 @@ self.__precacheManifest = [
     "url": "/beanns/static/media/github.766603df.svg"
   },
   {
-    "revision": "b5abe23514cb0fe1937a",
+    "revision": "3549ff6a9c6a632e514b",
     "url": "/beanns/static/css/main.1cf1f539.chunk.css"
   },
   {
-    "revision": "912ec66d7572ff821749319396470bde",
-    "url": "/beanns/static/media/fontawesome-webfont.912ec66d.svg"
+    "revision": "b06871f281fee6b241d60582ae9369b9",
+    "url": "/beanns/static/media/fontawesome-webfont.b06871f2.ttf"
   },
   {
     "revision": "e3ce4051ed868156b22b",
@@ -28,8 +28,8 @@ self.__precacheManifest = [
     "url": "/beanns/static/media/linkedin.5608be7a.svg"
   },
   {
-    "revision": "b5abe23514cb0fe1937a",
-    "url": "/beanns/static/js/main.b5abe235.chunk.js"
+    "revision": "3549ff6a9c6a632e514b",
+    "url": "/beanns/static/js/main.3549ff6a.chunk.js"
   },
   {
     "revision": "eda2e27876aa4693a67d03fd78a83367",
@@ -44,19 +44,19 @@ self.__precacheManifest = [
     "url": "/beanns/static/media/fontawesome-webfont.674f50d2.eot"
   },
   {
-    "revision": "b06871f281fee6b241d60582ae9369b9",
-    "url": "/beanns/static/media/fontawesome-webfont.b06871f2.ttf"
-  },
-  {
     "revision": "fee66e712a8a08eef5805a46892932ad",
     "url": "/beanns/static/media/fontawesome-webfont.fee66e71.woff"
+  },
+  {
+    "revision": "912ec66d7572ff821749319396470bde",
+    "url": "/beanns/static/media/fontawesome-webfont.912ec66d.svg"
   },
   {
     "revision": "e3ce4051ed868156b22b",
     "url": "/beanns/static/css/1.566278ce.chunk.css"
   },
   {
-    "revision": "de1ddf6015609bec348ff6bdd62e8244",
+    "revision": "f805e3632c67909ce388a6d997f3ca3f",
     "url": "/beanns/index.html"
   }
 ];

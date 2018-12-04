@@ -36,27 +36,27 @@ self.__precacheManifest = [
     "url": "/beanns/static/media/twitter.eda2e278.svg"
   },
   {
-    "revision": "af7ae505a9eed503f8b8e6982036873e",
-    "url": "/beanns/static/media/fontawesome-webfont.af7ae505.woff2"
-  },
-  {
     "revision": "674f50d287a8c48dc19ba404d20fe713",
     "url": "/beanns/static/media/fontawesome-webfont.674f50d2.eot"
   },
   {
-    "revision": "fee66e712a8a08eef5805a46892932ad",
-    "url": "/beanns/static/media/fontawesome-webfont.fee66e71.woff"
+    "revision": "af7ae505a9eed503f8b8e6982036873e",
+    "url": "/beanns/static/media/fontawesome-webfont.af7ae505.woff2"
   },
   {
     "revision": "b06871f281fee6b241d60582ae9369b9",
     "url": "/beanns/static/media/fontawesome-webfont.b06871f2.ttf"
   },
   {
+    "revision": "fee66e712a8a08eef5805a46892932ad",
+    "url": "/beanns/static/media/fontawesome-webfont.fee66e71.woff"
+  },
+  {
     "revision": "e3ce4051ed868156b22b",
     "url": "/beanns/static/css/1.566278ce.chunk.css"
   },
   {
-    "revision": "f805e3632c67909ce388a6d997f3ca3f",
+    "revision": "f8bcba23c735f32fc95cc155eb65b87d",
     "url": "/beanns/index.html"
   }
 ];

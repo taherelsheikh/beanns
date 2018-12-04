@@ -62,13 +62,13 @@ sanityChecking() {
 
 checkFirstName() {
   // check empty inputs
-  if ( this.state.firstName==null || this.state.firstName=="") {
+  if ( this.state.firstName===null || this.state.firstName==="") {
     console.log("ERROR empty inputs firstName")
     this.setState({errorFirstNameFound: true}, this.checkSecondName)
     this.setState({errorFirstNameMessage: "Enter the first name."})
   }
   else {
-  if ( /\s/.test(this.state.firstName)==true) {
+  if ( /\s/.test(this.state.firstName)===true) {
         console.log("ERROR space firstname")
         this.setState({errorFirstNameFound: true}, this.checkSecondName)
         this.setState({errorFirstNameMessage: "Remove whitespace."})
@@ -92,7 +92,7 @@ checkFirstName() {
 
 checkSecondName() {
   // check empty inputs
-  if ( this.state.secondName==null || this.state.secondName=="") {
+  if ( this.state.secondName===null || this.state.secondName==="") {
     console.log("ERROR empty inputs secondname")
     this.setState({errorSecondNameFound: true}, this.checkDomain)
     this.setState({errorSecondNameMessage: "Enter the second name."})
@@ -103,7 +103,7 @@ checkSecondName() {
     // this.setState({errorSecondNameMessage: ""})
 
     // check space inputs
-  if ( /\s/.test(this.state.secondName)==true) {
+  if ( /\s/.test(this.state.secondName)===true) {
         console.log("ERROR space secondname")
         this.setState({errorSecondNameFound: true}, this.checkDomain)
         this.setState({errorSecondNameMessage: "Please remove whitespace."})
@@ -130,7 +130,7 @@ checkSecondName() {
 
 checkDomain() {
   // check empty inputs
-  if ( this.state.domainName==null || this.state.domainName=="") {
+  if ( this.state.domainName===null || this.state.domainName==="") {
     console.log("ERROR empty inputs domain")
     this.setState({errorDomainNameFound: true})
     this.setState({errorDomainNameMessage: "Enter the domain."})
@@ -141,7 +141,7 @@ checkDomain() {
     // this.setState({errorDomainNameMessage: ""})
 
     // check space inputs
-  if ( /\s/.test(this.state.domainName)==true) {
+  if ( /\s/.test(this.state.domainName)===true) {
         console.log("ERROR space domain")
         this.setState({errorDomainNameFound: true})
         this.setState({errorDomainNameMessage: "Please remove whitespace."})
@@ -186,7 +186,7 @@ removeWhiteSpace() {
 }
 
 predictEmail() {
-  if (this.state.errorFirstNameFound == false && this.state.errorSecondNameFound == false && this.state.errorDomainNameFound == false) {
+  if (this.state.errorFirstNameFound === false && this.state.errorSecondNameFound === false && this.state.errorDomainNameFound === false) {
   let firstname = this.state.firstName.toLowerCase()
   let secondname = this.state.secondName.toLowerCase()
   let domainname = this.state.domainName.toLowerCase()
@@ -713,13 +713,12 @@ InputsBoxFirstName(input) {
 
 
 
-
 if (input === "firstname") {
 if (this.state.errorFirstNameFound) {
   return(
     <div>
     <Label><Star>*</Star> FIRST NAME</Label>
-    <input id="ErrorInput" value={this.state.firstName} onMouseEnter={()=>{this.firstNameHover(true)}} onMouseLeave={()=>{this.firstNameHover(false)}} onChange={(event)=>{this.handleFirstName(event);}} placeholder="mark"/>
+    <input id="ErrorInput" value={this.state.firstName} onMouseEnter={()=>{this.firstNameHover(true)}} onMouseLeave={()=>{this.firstNameHover(false)}} onChange={(event)=>{this.handleFirstName(event);}} placeholder="elon"/>
     {this.firstNameHoverShowV2()}
     </div>
   )
@@ -727,7 +726,7 @@ if (this.state.errorFirstNameFound) {
   return(
     <div>
     <Label>FIRST NAME </Label>
-    <input id="MainInput" value={this.state.firstName} onMouseEnter={()=>{this.firstNameHover(true)}} onMouseLeave={()=>{this.firstNameHover(false)}} onChange={(event)=>{this.handleFirstName(event);}} placeholder="mark"/>
+    <input id="MainInput" value={this.state.firstName} onMouseEnter={()=>{this.firstNameHover(true)}} onMouseLeave={()=>{this.firstNameHover(false)}} onChange={(event)=>{this.handleFirstName(event);}} placeholder="elon"/>
     </div>
   )
 }
@@ -738,7 +737,7 @@ if (this.state.errorSecondNameFound) {
   return(
     <div>
     <Label><Star>*</Star> SECOND NAME</Label>
-    <input id="ErrorInput" value={this.state.secondName} onMouseEnter={()=>{this.secondNameHover(true)}} onMouseLeave={()=>{this.secondNameHover(false)}} onChange={(event)=>{this.handleSecondName(event);}} placeholder="zuck"/>
+    <input id="ErrorInput" value={this.state.secondName} onMouseEnter={()=>{this.secondNameHover(true)}} onMouseLeave={()=>{this.secondNameHover(false)}} onChange={(event)=>{this.handleSecondName(event);}} placeholder="musk"/>
     {this.secondNameHoverShowV2()}
     </div>
   )
@@ -746,7 +745,7 @@ if (this.state.errorSecondNameFound) {
   return(
     <div>
     <Label>SECOND NAME </Label>
-    <input id="MainInput" value={this.state.secondName} onMouseEnter={()=>{this.secondNameHover(true)}} onMouseLeave={()=>{this.secondNameHover(false)}}  onChange={(event)=>{this.handleSecondName(event);}} placeholder="zuck"/>
+    <input id="MainInput" value={this.state.secondName} onMouseEnter={()=>{this.secondNameHover(true)}} onMouseLeave={()=>{this.secondNameHover(false)}}  onChange={(event)=>{this.handleSecondName(event);}} placeholder="musk"/>
     </div>
   )
 }
@@ -757,7 +756,7 @@ if (this.state.errorDomainNameFound) {
   return(
     <div>
     <Label><Star>*</Star> DOMAIN</Label>
-    <input id="ErrorInput" value={this.state.domainName}  onMouseEnter={()=>{this.domainNameHover(true)}} onMouseLeave={()=>{this.domainNameHover(false)}} onChange={(event)=>{this.handleDomainName(event);}} placeholder="@fb.com"/>
+    <input id="ErrorInput" value={this.state.domainName}  onMouseEnter={()=>{this.domainNameHover(true)}} onMouseLeave={()=>{this.domainNameHover(false)}} onChange={(event)=>{this.handleDomainName(event);}} placeholder="@spacex.com"/>
     {this.domainNameHoverShow()}
     </div>
   )
@@ -765,7 +764,7 @@ if (this.state.errorDomainNameFound) {
   return(
     <div>
     <Label>DOMAIN</Label>
-    <input id="MainInput" value={this.state.domainName} onMouseEnter={()=>{this.domainNameHover(true)}} onMouseLeave={()=>{this.domainNameHover(false)}} onChange={(event)=>{this.handleDomainName(event);}} placeholder="@fb.com"/>
+    <input id="MainInput" value={this.state.domainName} onMouseEnter={()=>{this.domainNameHover(true)}} onMouseLeave={()=>{this.domainNameHover(false)}} onChange={(event)=>{this.handleDomainName(event);}} placeholder="@spacex.com"/>
     </div>
   )
 }
@@ -838,19 +837,24 @@ margin-top: 11px;
 margin-left: 4px;
 `
 
+const DivInputsMargins = styled.div`
+margin-bottom: 9px;
+`
+
 
 
     return (
       <div id="Flexbox_Div_inputs">
-        <div>
+
+        <div id="DivInputsMargins">
           {this.InputsBoxFirstName("firstname")}
         </div>
 
-        <div>
+        <div id="DivInputsMargins">
           {this.InputsBoxFirstName("secondname")}
         </div>
 
-        <div>
+        <div id="DivInputsMargins">
         {this.InputsBoxFirstName("domainname")}
         </div>
 

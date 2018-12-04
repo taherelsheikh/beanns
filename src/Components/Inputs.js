@@ -41,25 +41,35 @@ handleSubmitEnter(event) {
     position: relative;
     top: -624px;
     overflow: hidden;
-
+    z-index: 50;
+    @media screen and (max-width: 375px) {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 494px;
+    z-index: 50;
+   }
     `;
 
   const P_title_beans = styled.p`
   font-family: 'Comfortaa', cursive;
-  font-size: 45px;
+  font-size: 38px;
   font-weight: 700;
   color: #ffffff;
   letter-spacing: 0px;
-  margin: 0;
   display: inline;
+  margin-bottom: 25px;
+  margin: 0;
+
 `;
 
 const P_subtitle_beans = styled.p`
 font-family: "Alegreya Sans", sans-serif;
-font-size: 25px;
+font-size: 20px;
 font-weight: 300;
 color: #ffffff;
 margin: 0;
+
 
 `;
 
@@ -125,7 +135,6 @@ const Button_predict = styled.button`
           box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.29);
           &:hover {
             margin-top : -1px;
-
           }
 
         `;
@@ -136,6 +145,10 @@ justify-content: center;
 position: absolute;
 width: 100%
 top: 313px;
+@media screen and (max-width: 375px) {
+  top: 444px;
+}
+
 `
 
 const P_button_text = styled.p`
@@ -150,17 +163,16 @@ const P_button_text = styled.p`
   margin: 0;
 `;
 
-
     return (
         <Div_inputs_outline>
          <P_title_beans>beanns</P_title_beans>
-        <P_subtitle_beans>predict someone's email in seconds</P_subtitle_beans>
+        <P_subtitle_beans>predict emails in seconds</P_subtitle_beans>
         <InputTesting
         ref="Inputs"
         passDataApp = {(data)=>{this.props.passDatafromInputs(data)}}
         />
         <Div_button>
-        <Button_predict onClick={()=>{this.handleSubmit()}} onKeyPress={(event)=>{console.log(event.key)}}>
+        <Button_predict onClick={()=>{this.handleSubmit()}} onKeyPress={(event)=>{console.log(event.key)}} >
         <P_button_text>PREDICT EMAIL</P_button_text>
         </Button_predict>
         </Div_button>

@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Alegreya+Sans:300,400');
 @import url('https://fonts.googleapis.com/css?family=Comfortaa:300,400,700');
-
 @import url('https://fonts.googleapis.com/css?family=Slabo+27px');
 
 
@@ -13,6 +12,15 @@
   animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
 }
+
+
+
+@media only screen and (max-width: 600px) {
+  .testresponsive {
+display:none
+  }
+}
+
 
 .App-header {
   background-color: #282c34;
@@ -80,7 +88,9 @@ border-radius: 8px; */
 
 }
 
-
+#DivInputsMargins {
+  margin-bottom: 12px;
+}
 
 #Flexbox_Div_inputs {
   margin-top: 59px;
@@ -90,13 +100,20 @@ border-radius: 8px; */
 
   /* position: absolute; */
   /* top:122px; */
-  width: 1112px;
+
+  width: 100%;
   /* height: 363px; */
   /* margin: 0 auto; */
-
-
-
 }
+
+ @media screen and (max-width: 375px) {
+#Flexbox_Div_inputs {
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+}
+
 
 @keyframes App-logo-spin {
   from {

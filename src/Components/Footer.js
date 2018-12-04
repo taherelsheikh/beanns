@@ -13,9 +13,36 @@ class Footer extends Component {
 top: -1982px;
 margin: 0 auto;
 z-index: 200;
-overflow: hidden;
+/* overflow: hidden; */
+
+@media screen and (max-width: 375px) {
+display:none
+}
+
 
     `
+    const Div_footer_iphone = styled.div`
+    @media screen and (max-width: 375px) {
+
+    /* height: 447px;
+    width: 1112px; */
+    height: 200px;
+    width:100%
+    position: relative;
+top: -1982px;
+margin: 0 auto;
+z-index: 200;
+overflow: hidden;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+
+}
+
+`
+
+
 
     const P_footer_about = styled.p`
       font-family: "Alegreya Sans", sans-serif;
@@ -52,7 +79,7 @@ overflow: hidden;
 
 
   const Hr_table_horizontal_line = styled.hr`
-              width: autp;
+              width: 100%;
               height: 0px;
               border: solid 1px rgba(151, 151, 151, 0.27);
               margin:0;
@@ -72,15 +99,28 @@ margin-top: 111px;
 
 `;
 
+const Hr_table_horizontal_line_mobile = styled.hr`
+position: relative;
+top: -20px;
+            width: 72%;
+            height: 0px;
+            border: solid 1px rgba(151, 151, 151, 0.27);
+            margin:0;
+
+          `;
+
+const A_div_mobile = styled.div`
+display: block;
+`
+
 
 
     return (
+      <div>
       <Div_footer_main>
-
-      <P_footer_about>ABOUT</P_footer_about>
       <Hr_table_horizontal_line/>
       <P_footer_titles>PROJECT</P_footer_titles>
-      <P_footer_subtitle>beanns is a project that started as a result of me trying to find an internship.</P_footer_subtitle>
+      <P_footer_subtitle>beanns was a project that started as a result of me trying to find an internship.</P_footer_subtitle>
       <P_footer_titles>ME</P_footer_titles>
       <P_footer_subtitle>I’m Taher Elsheikh, a data scientist interested in full stack and UI/UX. Let me know if you found beanns helpful.</P_footer_subtitle>
       <Div_social_media_accounts>
@@ -96,11 +136,28 @@ margin-top: 111px;
 
       <Img_social_media_images src={require('./Assets/twitter.svg')} />
       </a>
-
       </Div_social_media_accounts>
-
-
       </Div_footer_main>
+     <Div_footer_iphone>
+
+     <Hr_table_horizontal_line_mobile/>
+     <A_div_mobile>
+     <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/taherelsheikhgwu/">
+     <Img_social_media_images src={require('./Assets/linkedin.svg')} />
+     </a>
+     <a target="_blank" rel="noopener noreferrer" href="https://github.com/taherelsheikh/">
+     <Img_social_media_images src={require('./Assets/github.svg')} />
+     </a>
+     <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/taherelsheikh/">
+     <Img_social_media_images src={require('./Assets/twitter.svg')} />
+     </a>
+     </A_div_mobile>
+
+
+
+
+      </Div_footer_iphone>
+      </div>
     );
   }
 }

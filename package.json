@@ -2,7 +2,7 @@
   "name": "beanns",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://taherelsheikh.github.io/beanns/",
+  "homepage": "www.beanns.com",
   "dependencies": {
     "ajv": "^6.5.5",
     "font-awesome": "^4.7.0",

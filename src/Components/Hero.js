@@ -9,9 +9,6 @@ class Hero extends Component {
       background-image: linear-gradient(322deg, #ff986a, #ff986a 30%, #ffd46a);
       overflow: hidden;
       position: relative;
-      z-index: 0;
-
-
     `;
 
     const Div_hero_top_left_square = styled.div`
@@ -44,6 +41,9 @@ class Hero extends Component {
       top: 143px;
       left: -30px;
       z-index:50;
+      @media screen and (max-width: 375px) {
+       visibility:hidden;
+     }
 
     `;
 
@@ -54,6 +54,9 @@ class Hero extends Component {
       position: relative;
       top: 143px;
       left: -30px;
+      @media screen and (max-width: 375px) {
+        top: 234px;
+     }
 
 
     `;
@@ -67,7 +70,21 @@ class Hero extends Component {
       /* left: -px; */
       width: 100%;
       z-index: 3;
+    `;
 
+    const Div_hero_mobile = styled.div`
+    @media screen and (max-width: 375px) {
+      -ms-transform: rotate(-10deg); /* IE 9 */
+      -webkit-transform: rotate(-10deg); /* Safari */
+      transform: rotate(-10deg);
+      position: absolute;
+      top: -121px;
+      left: -88px;
+      width: 482px;
+      height: 192px;
+      background: rgba(255,212,106,0.45);
+            z-index: 2;
+}
     `;
 
 
@@ -75,10 +92,14 @@ class Hero extends Component {
     return (
       <div>
         <Div_hero_main_background>
+        <Div_hero_mobile />
+
           <Div_hero_rotate_top_two_squares>
+
             <Div_hero_top_left_square />
             <Div_hero_top_right_square />
           </Div_hero_rotate_top_two_squares>
+
 
           <Div_hero_section2>
             <Div_hero_bottom_left_square />

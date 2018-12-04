@@ -21,7 +21,6 @@ class App extends Component {
         }
 }
 this.passed_data_from_input = this.passed_data_from_input.bind(this)
-
 }
 
   passed_data_from_input(data) {
@@ -36,6 +35,7 @@ this.passed_data_from_input = this.passed_data_from_input.bind(this)
     width: 100%;
     overflow: hidden;
     `
+
 
 
 

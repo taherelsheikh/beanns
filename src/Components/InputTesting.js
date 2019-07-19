@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import styled from "styled-components";
 import 'font-awesome/css/font-awesome.min.css';
+import imageUrl from './Assets/icons.svg';
+
 
 
 
@@ -316,7 +318,7 @@ margin-top: 28px;
       <div>
       <ErrorDivTriangle/>
       <ErrorDiv>
-      <ErrorMessageFontImg src={require('./Assets/icons.svg')} />
+      <ErrorMessageFontImg src={imageUrl} />
       <FlexBoxDiv>
         <ErrorMessageFontSnap>Oh snap!</ErrorMessageFontSnap>
         <ErrorMessageFont>{this.state.errorFirstNameMessage}</ErrorMessageFont>
@@ -489,7 +491,7 @@ margin-top: 28px;
       <div>
       <ErrorDivTriangle/>
       <ErrorDiv>
-      <ErrorMessageFontImg src={require('./Assets/icons.svg')} />
+      <ErrorMessageFontImg src={imageUrl} />
       <FlexBoxDiv>
         <ErrorMessageFontSnap>Hmm!</ErrorMessageFontSnap>
         <ErrorMessageFont>{this.state.errorSecondNameMessage}</ErrorMessageFont>
@@ -664,7 +666,7 @@ margin-top: 28px;
       <div>
       <ErrorDivTriangle/>
       <ErrorDiv>
-      <ErrorMessageFontImg src={require('./Assets/icons.svg')} />
+      <ErrorMessageFontImg src={imageUrl} />
       <FlexBoxDiv>
         <ErrorMessageFontSnap>Oops!</ErrorMessageFontSnap>
         <ErrorMessageFont>{this.state.errorDomainNameMessage}</ErrorMessageFont>

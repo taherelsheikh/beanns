@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import styled from "styled-components";
+// import imageUrl from './whatever.png';
 
 
 
@@ -47,30 +48,32 @@ flex-direction: column;
     const P_footer_about = styled.p`
       font-family: "Alegreya Sans", sans-serif;
       font-size: 25px;
-      font-weight: 500;
+      font-weight: 800;
       color: rgba(74, 74, 74, 0.71);
       letter-spacing: 0.77px;
       margin: 0;
+
     `
 
     const P_footer_titles = styled.p`
-    font-family: "Alegreya Sans", sans-serif;
-    font-size: 20px;
-    color: rgba(232,134,31,0.70);
+    font-family: larsseit, Helvetica, Arial, sans-serif;
+    font-size: 19px;
+    color: #EB9B00;
     letter-spacing: 0.68px;
     margin: 0;
     margin-top: 20px;
+    font-weight: 400;
         `
 
 
     const P_footer_subtitle = styled.p`
-    font-family: "Alegreya Sans", sans-serif;
-    font-size: 20px;
-    font-weight: normal;
+    font-family: larsseit, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 200;
     font-style: normal;
     font-stretch: normal;
     line-height: normal;
-    letter-spacing: 0.68px;
+    letter-spacing: 0.20px;
     color: rgba(74, 74, 74, 0.71);
     margin: 0;
             `
@@ -120,7 +123,7 @@ display: block;
       <Div_footer_main>
       <Hr_table_horizontal_line/>
       <P_footer_titles>PROJECT</P_footer_titles>
-      <P_footer_subtitle>beanns was a project that started as a result of me trying to find an internship.</P_footer_subtitle>
+      <P_footer_subtitle>Beanns was a project that started as a result of me trying to find an internship.</P_footer_subtitle>
       <P_footer_titles>ME</P_footer_titles>
       <P_footer_subtitle>I’m Taher Elsheikh, a data scientist interested in full stack and UI/UX. Let me know if you found beanns helpful.</P_footer_subtitle>
       <Div_social_media_accounts>

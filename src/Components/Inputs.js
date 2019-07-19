@@ -64,14 +64,22 @@ handleSubmitEnter(event) {
 `;
 
 const P_subtitle_beans = styled.p`
-font-family: "Alegreya Sans", sans-serif;
+font-family: larsseit, Helvetica, Arial, sans-serif;
 font-size: 20px;
 font-weight: 300;
 color: #ffffff;
 margin: 0;
-
-
+margin-top: -0.2em;
 `;
+
+const P_subtitle_beans_second = styled.p`
+font-family: larsseit, Helvetica, Arial, sans-serif;
+font-size: 20px;
+font-weight: 400;
+color: #ffffff;
+margin: 0;
+`;
+
 
 
 const Img_beans = styled.img`
@@ -165,8 +173,8 @@ const P_button_text = styled.p`
 
     return (
         <Div_inputs_outline>
-         <P_title_beans>beanns</P_title_beans>
-        <P_subtitle_beans>predict emails in seconds</P_subtitle_beans>
+         <P_title_beans>beanns.</P_title_beans>
+        <P_subtitle_beans>predict <strong>emails</strong> in seconds</P_subtitle_beans>
         <InputTesting
         ref="Inputs"
         passDataApp = {(data)=>{this.props.passDatafromInputs(data)}}

@@ -1,8 +1,8 @@
 {
   "name": "beanns",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
-  "homepage": "www.beanns.com",
+  "homepage": "https://taherelsheikh.github.io/beanns/",
   "dependencies": {
     "ajv": "^6.5.5",
     "font-awesome": "^4.7.0",

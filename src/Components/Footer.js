@@ -58,23 +58,23 @@ flex-direction: column;
     const P_footer_titles = styled.p`
     font-family: larsseit, Helvetica, Arial, sans-serif;
     font-size: 19px;
-    color: #EB9B00;
+    color:rgba(247, 63, 0, 0.7);
     letter-spacing: 0.68px;
     margin: 0;
     margin-top: 20px;
-    font-weight: 400;
+    font-weight: 300;
         `
 
 
     const P_footer_subtitle = styled.p`
     font-family: larsseit, Helvetica, Arial, sans-serif;
-    font-size: 16px;
+    font-size: 17px;
     font-weight: 200;
     font-style: normal;
     font-stretch: normal;
     line-height: normal;
     letter-spacing: 0.20px;
-    color: rgba(74, 74, 74, 0.71);
+    color: #525f7f;
     margin: 0;
             `
 
